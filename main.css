@@ -1,11 +1,73 @@
 .div
 {}
 body{
+
+	background: #5ABCE6;
+	font-size: 16px;
+}
+
+footer
+{
+	color: rgba(255,255,255,0.7);
+	background:#22BCE0; 
+	text-align: center;
+	padding: 1.5em;
+	margin: 2.33em 0 0em 0;
+
+
 	
 }
+
+
+
 h1{
+	color: #151AAD;
+	text-align: center;
+	font-size: 48px
 
 }
 header{
-	
+	background: white;
+	padding: 2rem;
+
+}
+
+nav
+{
+	/*background: #80BCA3;*/
+	background: #7488CD;
+	padding: 0 5em 0 0;
+	position: relative;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav	 ul li
+{
+	display: inline-block;
+	margin: 0 1em 0 0;
+}
+
+
+nav ul li a
+{
+	/*background: red;*/
+	color: white;
+	display: block;
+	padding:0.5em;
+	text-decoration: none;
+	-webkit-transition:.3s;
+
+}
+
+#veritas{
+	background: white;
+	margin: 1em;
+	padding: 6em;
+
 }
